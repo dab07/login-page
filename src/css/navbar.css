@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    height: 5vh;
+    background: #1c1c1c;
+    color: white;
+    justify-content: space-between;
+}
+.h1 {
+    color: white;
+    font-size: 20vh;
+}
+
+#navbar-name {
+    margin: 20px;
+    font-family: SansSerif;
+}
+.navbar-right {
+    padding: 20px;
+    margin: 20px;
+    color: wheat;
+    justify-items: space-between;
+}
