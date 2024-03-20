@@ -6,14 +6,9 @@ import Login from "./Login";
 
 const Home = () => {
   return (
-    <div className="App">
-      <div className="navbar">
-        <h1>Name</h1>
-        <div className="navbar-right">
-          // <input type="text" placeholder="Login" onClick={() => };
-        </div>
+      <div>
+          <h1> Home </h1>
       </div>
-    </div>
   );
 };
 export default Home;

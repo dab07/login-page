@@ -51,7 +51,7 @@ const Register = () => {
       </div>
       <div className="box-caption">
         <p>
-          Apne gang ke ho? <a href="/login">Login here</a>
+          Apne gang ke ho? <a className="links" href="/login">Login here</a>
         </p>
       </div>
     </div>

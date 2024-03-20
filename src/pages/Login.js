@@ -40,7 +40,7 @@ const Login = () => {
       </div>
       <div className="box-caption">
         <p>
-          Account nhi hai? ban jayega! <a href="/register">Register here</a>
+          Account nhi hai? ban jayega! <a className="links" href="/register">Register here</a>
         </p>
       </div>
     </div>
