@@ -5,3 +5,5 @@ const Movies = (movielist) => {
       </div>
   )
 }
+
+export default Movies;
