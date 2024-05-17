@@ -1,0 +1,16 @@
+body {
+    background: black;
+    display: flex;
+}
+.navbar {
+    justify-content: space-between;
+    color: aliceblue;
+    margin: 15px;
+    padding: 20px;
+}
+.navbar-right {
+    align-items: center;
+    margin: 15px;
+    padding: 20px;
+    font-size: 40px;
+}

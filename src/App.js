@@ -9,19 +9,22 @@ import Home from "./pages/Home";
 import ResetPassword from "./pages/ResetPassword";
 import Profile from "./pages/Profile";
 import PrivateRoutes from "./utils/PrivateRoutes";
+import {AuthProvider} from "./utils/AuthContext";
 
 function App() {
     return (
         <Router>
-            <Routes>
-                <Route path="/login" element={<Login />} />
-                <Route path="/register" element={<Register />} />
-                <Route path="/reset-password" element={<ResetPassword />} />
-                <Route element={<PrivateRoutes/>}>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/profile" element={<Profile />} />
-                </Route>
-        </Routes>
+            <AuthProvider>
+                <Routes>
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/register" element={<Register />} />
+                    <Route path="/reset-password" element={<ResetPassword />} />
+                    <Route element={<PrivateRoutes/>}>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/profile" element={<Profile />} />
+                    </Route>
+                </Routes>
+            </AuthProvider>
     </Router>
   );
 }
